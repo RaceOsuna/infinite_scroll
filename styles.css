@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 html {
   box-sizing: border-box;
@@ -7,5 +7,28 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  font-family:Montserrat, sans-serif;
+  font-family:Bebas Neue, sans-serif;
+  background: whitesmoke;
+}
+
+.title {
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(244, 244, 244, 0.8);
+}
+
+.loader img {
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

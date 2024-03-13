@@ -1,1 +1,1 @@
-console.log("hello world")
+const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=10`
